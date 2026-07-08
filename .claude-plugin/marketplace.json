@@ -1,0 +1,14 @@
+{
+  "name": "minseok-skills",
+  "description": "minseok-skills 단일 플러그인 marketplace — 개인 범용 스킬 컬렉션 배포 채널",
+  "owner": {
+    "name": "hhamja"
+  },
+  "plugins": [
+    {
+      "name": "minseok-skills",
+      "source": "./",
+      "description": "개인 범용 스킬 컬렉션 — 에이전트 엔지니어링 생산성 도구"
+    }
+  ]
+}

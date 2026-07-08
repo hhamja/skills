@@ -1,0 +1,8 @@
+{
+  "name": "minseok-skills",
+  "version": "0.1.0",
+  "description": "개인 범용 스킬 컬렉션 — 에이전트 엔지니어링 생산성 도구의 배포 채널. 첫 스킬: toolsmith (셋업 자가진단).",
+  "author": {
+    "name": "hhamja"
+  }
+}
