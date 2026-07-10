@@ -4,7 +4,7 @@
 
 **English** · [한국어](README.ko.md)
 
-![version](https://img.shields.io/badge/version-0.1.0-blue)
+![version](https://img.shields.io/badge/version-0.2.0-blue)
 ![license](https://img.shields.io/badge/license-MIT-green)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-plugin-8A63D2)
 
@@ -18,6 +18,7 @@ versioned by git tag + `plugin.json` SemVer + `CHANGELOG.md`.
 | Skill | What it does |
 |---|---|
 | **`toolsmith`** | Audits an agent-engineering setup and a target project, then emits a ranked report of tool/skill/command/hook/script candidates — each with a machine-verifiable "done" definition. |
+| **`niche-finder`** | Finds narrow app niches where you hold an unfair distribution edge, using free App Store signals only. Emits ranked, testable hypotheses backed by quantitative anchors and verbatim review quotes; an independent checker re-queries live APIs to block fabricated evidence. |
 
 ## Install
 
