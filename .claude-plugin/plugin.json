@@ -1,7 +1,7 @@
 {
   "name": "minseok-skills",
-  "version": "0.2.0",
-  "description": "개인 범용 스킬 컬렉션 — 에이전트 엔지니어링 생산성 도구의 배포 채널. 스킬: toolsmith (셋업 자가진단), niche-finder (앱 니치 발굴).",
+  "version": "0.3.0",
+  "description": "개인 범용 스킬 컬렉션 — 에이전트 엔지니어링 생산성 도구의 배포 채널. 스킬: toolsmith (셋업 자가진단), niche-finder (앱 니치 발굴), official-plugins (공식 플러그인 마켓 조사).",
   "author": {
     "name": "hhamja"
   }
