@@ -4,7 +4,7 @@
 
 **English** · [한국어](README.ko.md)
 
-![version](https://img.shields.io/badge/version-0.2.0-blue)
+![version](https://img.shields.io/badge/version-0.3.0-blue)
 ![license](https://img.shields.io/badge/license-MIT-green)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-plugin-8A63D2)
 
@@ -19,6 +19,7 @@ versioned by git tag + `plugin.json` SemVer + `CHANGELOG.md`.
 |---|---|
 | **`toolsmith`** | Audits an agent-engineering setup and a target project, then emits a ranked report of tool/skill/command/hook/script candidates — each with a machine-verifiable "done" definition. |
 | **`niche-finder`** | Finds narrow app niches where you hold an unfair distribution edge, using free App Store signals only. Emits ranked, testable hypotheses backed by quantitative anchors and verbatim review quotes; an independent checker re-queries live APIs to block fabricated evidence. |
+| **`official-plugins`** | Surveys the official Claude Code plugin marketplace (`anthropics/claude-plugins-official`) and reports, per plugin, its author, description, and whether it is Anthropic-authored or an external contribution. Origin is derived from the catalog `source` field, since many entries declare no author. |
 
 ## Install
 

@@ -3,6 +3,18 @@
 All notable changes to this plugin are documented here. Format follows
 [Keep a Changelog](https://keepachangelog.com/); this project adheres to SemVer.
 
+## [0.3.0] — 2026-07-13
+
+### Added
+- `official-plugins` skill — surveys the official Claude Code plugin marketplace
+  (`anthropics/claude-plugins-official`) and reports, per plugin: author,
+  description, and whether it is Anthropic-authored or an external
+  (vendor/community) contribution. Origin is derived from the catalog `source`
+  field (`./plugins/` = Anthropic, `./external_plugins/` and `git-subdir` =
+  external), since ~1/3 of entries declare no author. Ships
+  `scripts/survey.mjs` (live-catalog fetch, filters, JSON, offline `--file`,
+  and a `--selfcheck` classifier assertion).
+
 ## [0.2.0] — 2026-07-10
 
 ### Added
