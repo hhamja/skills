@@ -3,6 +3,16 @@
 All notable changes to this plugin are documented here. Format follows
 [Keep a Changelog](https://keepachangelog.com/); this project adheres to SemVer.
 
+## [0.4.0] — 2026-07-17
+
+### Added
+- `claude-md-map` skill — reviews or (re)writes a CLAUDE.md/AGENTS.md so it
+  works as a map, not an encyclopedia: 7 pass/fail criteria (most-important
+  first, pointers over prose, load-bearing rules only) plus a restructure
+  workflow that relocates depth into docs/skills instead of deleting it.
+  Ships `scripts/claude_md_lint.sh` (120-line cap + relative-link resolution;
+  exit-2 PostToolUse hook that feeds violations back for in-place fixes).
+
 ## [0.3.0] — 2026-07-13
 
 ### Added
