@@ -4,7 +4,7 @@
 
 [English](README.md) · **한국어**
 
-![version](https://img.shields.io/badge/version-0.3.0-blue)
+![version](https://img.shields.io/badge/version-0.4.0-blue)
 ![license](https://img.shields.io/badge/license-MIT-green)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-plugin-8A63D2)
 
@@ -20,6 +20,7 @@
 | **`toolsmith`** | 에이전트 엔지니어링 셋업과 대상 프로젝트를 감사해, 도구/스킬/커맨드/훅/스크립트 후보를 machine-verifiable '완료' 정의와 함께 순위 리포트로 낸다. |
 | **`niche-finder`** | 무료 App Store 신호만으로 "내가 불공정한 유통 우위를 가진 좁은 니치"를 찾아, 정량 앵커·리뷰 원문 인용이 붙은 테스트 가능한 가설 목록을 낸다. 독립 검증기가 라이브 API 재조회로 조작 증거를 차단. |
 | **`official-plugins`** | 공식 Claude Code 플러그인 마켓(`anthropics/claude-plugins-official`)을 조사해 플러그인별 author·설명·(Anthropic 제작 vs 외부 기여) 여부를 낸다. author 미기재 항목이 많아 origin은 카탈로그 `source` 필드로 판별. |
+| **`github-search`** | 소프트웨어/도구 지형을 빠짐없이 서베이한다 — 라이브 GitHub 오픈 탐색(topic/텍스트/트렌딩, 기억 속 후보 목록 금지), API 라이브 스타 측정, 스타 인플레이션 회의주의, 벤더 자체발표 vs 독립 조사 데이터 분리를 여러 랭킹 축으로. |
 
 ## 설치
 
