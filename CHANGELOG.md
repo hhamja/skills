@@ -3,6 +3,17 @@
 All notable changes to this plugin are documented here. Format follows
 [Keep a Changelog](https://keepachangelog.com/); this project adheres to SemVer.
 
+## [0.4.0] — 2026-07-17
+
+### Added
+- `github-search` skill — surveys a software/tool landscape without missing
+  things. Discovery comes from live open GitHub search (topic/text/trending),
+  never a from-memory candidate list; stars are measured live via the API
+  (redirects followed, archived/stale flagged); ranking is cross-axis (stars vs
+  independent adoption surveys vs vendor-reported scale) with star-inflation
+  skepticism baked in. Optional `--deep` pass folds in a multi-source adoption
+  check.
+
 ## [0.3.0] — 2026-07-13
 
 ### Added
